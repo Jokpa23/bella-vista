@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bella Vista Restaurant - A luxury fine dining experience serving gourmet cuisine, fresh ingredients, and unforgettable flavors. Reserve your table today.">
+    <meta name="keywords" content="restaurant, fine dining, luxury restaurant, gourmet food, reservations, Bella Vista, chef, fresh ingredients">
+    <meta name="author" content="Bella Vista Restaurant">
+    <meta property="og:title" content="Bella Vista Restaurant - Fine Dining Experience">
+    <meta property="og:description" content="A luxury fine dining experience serving gourmet cuisine crafted by world-class chefs.">
+    <meta property="og:type" content="restaurant">
+    <title>Bella Vista Restaurant | Luxury Fine Dining Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <span class="loader-brand">Bella Vista</span>
+                <span class="loader-tagline">Restaurant</span>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-info">
+                <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +1 (555) 123-4567</span>
+                <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mon - Sun: 11:00 AM - 11:00 PM</span>
+            </div>
+            <div class="top-social">
+                <a href="#" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                <a href="#" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                <a href="#" aria-label="Twitter"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M3 11h18M5 11V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3M6 11v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8M9 6V4M15 6V4"/>
+                    </svg>
+                </span>
+                <div class="logo-text">
+                    <span class="logo-name">Bella Vista</span>
+                    <span class="logo-sub">Restaurant</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#specials" class="nav-link">Specials</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#chefs" class="nav-link">Chefs</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <a href="#reservation" class="btn btn-primary nav-btn">Reserve Table</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/hero-bg.jpg" alt="Bella Vista Restaurant">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-particles"></div>
+        <div class="container hero-content">
+            <span class="hero-badge reveal">★  Est. 1998  ★  Award-Winning Cuisine</span>
+            <h1 class="hero-title">
+                <span class="reveal">Where Every Bite</span>
+                <span class="hero-highlight reveal">Tells a Story</span>
+            </h1>
+            <p class="hero-subtitle reveal">
+                Indulge in an unforgettable culinary journey crafted by world-renowned chefs using the freshest seasonal ingredients, all in an elegant atmosphere designed for life's most memorable moments.
+            </p>
+            <div class="hero-buttons reveal">
+                <a href="#menu" class="btn btn-primary btn-lg">
+                    <span>View Menu</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#reservation" class="btn btn-ghost btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    <span>Reserve a Table</span>
+                </a>
+            </div>
+            <div class="hero-stats reveal">
+                <div class="hero-stat">
+                    <span class="hero-stat-num">25+</span>
+                    <span class="hero-stat-label">Years of Excellence</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num">50+</span>
+                    <span class="hero-stat-label">Signature Dishes</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num">4.9★</span>
+                    <span class="hero-stat-label">Customer Rating</span>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <span class="scroll-mouse">
+                <span class="scroll-wheel"></span>
+            </span>
+            <span class="scroll-text">Scroll</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img about-img-1 reveal">
+                        <img src="images/about-1.jpg" alt="Bella Vista dining area">
+                    </div>
+                    <div class="about-img about-img-2 reveal">
+                        <img src="images/about-2.jpg" alt="Bella Vista interior">
+                    </div>
+                    <div class="about-img about-img-3 reveal">
+                        <img src="images/about-3.jpg" alt="Bella Vista ambiance">
+                    </div>
+                    <div class="about-badge reveal">
+                        <span class="about-badge-num">25</span>
+                        <span class="about-badge-text">Years of Legacy</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag reveal">Our Story</span>
+                    <h2 class="section-title reveal">A Legacy of <span class="text-gold">Culinary Excellence</span></h2>
+                    <p class="about-lead reveal">
+                        At Bella Vista, every dish is a masterpiece, every moment a memory, and every guest, family.
+                    </p>
+                    <p class="reveal">
+                        Founded in 1998 by renowned chef Antonio Moretti, Bella Vista began as a dream to create a dining experience that marries traditional Italian craftsmanship with modern culinary innovation. Nestled in the heart of the city, our restaurant has become a
+                        destination for food lovers seeking something extraordinary.
+                    </p>
+                    <p class="reveal">
+                        Our philosophy is simple: source the finest local ingredients, treat them with respect, and present them with artistry. From hand-rolled pasta to wood-fired pizzas, every plate tells the story of our heritage and passion.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="about-feature reveal">
+                            <div class="about-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                            </div>
+                            <div>
+                                <h4>Master Chef</h4>
+                                <p>Antonio Moretti brings 30+ years of culinary mastery.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature reveal">
+                            <div class="about-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </div>
+                            <div>
+                                <h4>Crafted with Love</h4>
+                                <p>Every recipe is a labor of passion and dedication.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-mission reveal">
+                        <h4>Our Mission</h4>
+                        <p>To create extraordinary dining experiences that bring people together, celebrate life's special moments, and leave a lasting impression through exceptional cuisine and warm hospitality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section why-us" id="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Why Choose Us</span>
+                <h2 class="section-title reveal">The Bella Vista <span class="text-gold">Difference</span></h2>
+                <p class="section-subtitle reveal">Six reasons our guests keep coming back for more</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                    </div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Locally sourced, organic produce delivered daily from trusted farms and artisan suppliers.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg>
+                    </div>
+                    <h3>Experienced Chefs</h3>
+                    <p>Our award-winning culinary team brings decades of expertise from around the world.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3>Fast Service</h3>
+                    <p>Swift, attentive service ensures your experience is seamless from start to finish.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    </div>
+                    <h3>Cozy Atmosphere</h3>
+                    <p>An elegant, intimate setting with warm lighting and refined décor for every occasion.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <h3>Affordable Prices</h3>
+                    <p>Luxury dining at fair prices, with daily specials and seasonal menus to fit every budget.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                    </div>
+                    <h3>Excellent Service</h3>
+                    <p>Our staff is dedicated to making every visit extraordinary, attentive yet unobtrusive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section menu-section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Our Menu</span>
+                <h2 class="section-title reveal">Featured <span class="text-gold">Dishes</span></h2>
+                <p class="section-subtitle reveal">A curated selection from our chef's finest creations</p>
+            </div>
+
+            <div class="menu-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="breakfast">Breakfast</button>
+                <button class="filter-btn" data-filter="lunch">Lunch</button>
+                <button class="filter-btn" data-filter="dinner">Dinner</button>
+                <button class="filter-btn" data-filter="drinks">Drinks</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="section specials" id="specials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Special Offers</span>
+                <h2 class="section-title reveal">Today's <span class="text-gold">Deals</span></h2>
+                <p class="section-subtitle reveal">Don't miss out on these exclusive culinary experiences</p>
+            </div>
+            <div class="specials-grid">
+                <div class="special-card reveal">
+                    <div class="special-badge">30% OFF</div>
+                    <div class="special-img">
+                        <img src="images/italian-pizza-margherita-food-photograph-1.jpg" alt="Pizza Special">
+                    </div>
+                    <div class="special-content">
+                        <h3>Wood-Fired Pizza Night</h3>
+                        <p>Enjoy our signature Margherita pizza with a 30% discount every Tuesday evening.</p>
+                        <div class="special-price">
+                            <span class="price-old">$24.99</span>
+                            <span class="price-new">$17.49</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-primary">Claim Offer</a>
+                    </div>
+                </div>
+                <div class="special-card reveal">
+                    <div class="special-badge">25% OFF</div>
+                    <div class="special-img">
+                        <img src="images/gourmet-burger-food-photography-dark-bac-1.jpg" alt="Burger Special">
+                    </div>
+                    <div class="special-content">
+                        <h3>Gourmet Burger Combo</h3>
+                        <p>Truffle burger with hand-cut fries and a craft beer of your choice.</p>
+                        <div class="special-price">
+                            <span class="price-old">$32.00</span>
+                            <span class="price-new">$24.00</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-primary">Claim Offer</a>
+                    </div>
+                </div>
+                <div class="special-card reveal">
+                    <div class="special-badge">20% OFF</div>
+                    <div class="special-img">
+                        <img src="images/seafood-platter-lobster-grilled-fish-foo-1.jpg" alt="Seafood Special">
+                    </div>
+                    <div class="special-content">
+                        <h3>Seafood Lovers Platter</h3>
+                        <p>Fresh lobster, grilled shrimp, and oysters for two — perfect for date night.</p>
+                        <div class="special-price">
+                            <span class="price-old">$89.00</span>
+                            <span class="price-new">$71.20</span>
+                        </div>
+                        <a href="#reservation" class="btn btn-primary">Claim Offer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="section reservation" id="reservation">
+        <div class="reservation-bg">
+            <img src="images/luxury-restaurant-interior-elegant-dinin-5.jpg" alt="Reservation">
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+            <div class="reservation-grid">
+                <div class="reservation-info">
+                    <span class="section-tag reveal">Reservation</span>
+                    <h2 class="section-title reveal">Book Your <span class="text-gold">Table</span></h2>
+                    <p class="reveal">Secure your spot at Bella Vista. Whether it's an intimate dinner for two or a celebration with family, we'll make it unforgettable.</p>
+                    <ul class="reservation-list">
+                        <li class="reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Free cancellation up to 4 hours before</li>
+                        <li class="reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Complimentary welcome drink</li>
+                        <li class="reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Custom menu options available</li>
+                        <li class="reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Private dining rooms on request</li>
+                    </ul>
+                    <div class="reservation-call reveal">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <div>
+                            <span>Reservation Hotline</span>
+                            <strong>+1 (555) 123-4567</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="reservation-form-wrap reveal">
+                    <form class="reservation-form" id="reservationForm">
+                        <h3>Make a Reservation</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+1 (555) 000-0000">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required placeholder="you@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Guests *</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="">Select</option>
+                                    <option>1 Person</option>
+                                    <option>2 People</option>
+                                    <option>3 People</option>
+                                    <option>4 People</option>
+                                    <option>5 People</option>
+                                    <option>6 People</option>
+                                    <option>7+ People</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date *</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time *</label>
+                                <input type="time" id="time" name="time" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Allergies, occasion, seating preferences..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Confirm Reservation</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Gallery</span>
+                <h2 class="section-title reveal">A Glimpse Inside <span class="text-gold">Bella Vista</span></h2>
+                <p class="section-subtitle reveal">Explore the ambiance, dishes, and moments that make us special</p>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Testimonials</span>
+                <h2 class="section-title reveal">What Our <span class="text-gold">Guests</span> Say</h2>
+                <p class="section-subtitle reveal">Real stories from our cherished diners</p>
+            </div>
+            <div class="testimonial-slider reveal">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <!-- Testimonials injected via JS -->
+                </div>
+                <div class="testimonial-nav">
+                    <button class="testimonial-btn prev" id="testPrev" aria-label="Previous">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                    </button>
+                    <div class="testimonial-dots" id="testDots"></div>
+                    <button class="testimonial-btn next" id="testNext" aria-label="Next">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chefs Section -->
+    <section class="section chefs" id="chefs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Our Team</span>
+                <h2 class="section-title reveal">Meet Our <span class="text-gold">Chefs</span></h2>
+                <p class="section-subtitle reveal">The passionate artists behind every exquisite plate</p>
+            </div>
+            <div class="chefs-grid">
+                <div class="chef-card reveal">
+                    <div class="chef-img">
+                        <img src="images/chef-1.jpg" alt="Chef Antonio">
+                        <div class="chef-social">
+                            <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg></a>
+                            <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>Antonio Moretti</h3>
+                        <span>Head Chef & Founder</span>
+                        <p>30+ years of culinary mastery, trained in Italy and France.</p>
+                    </div>
+                </div>
+                <div class="chef-card reveal">
+                    <div class="chef-img">
+                        <img src="images/chef-2.jpg" alt="Chef Marco">
+                        <div class="chef-social">
+                            <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg></a>
+                            <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>Marco Bellini</h3>
+                        <span>Sous Chef</span>
+                        <p>Specialist in pasta-making with authentic Italian techniques.</p>
+                    </div>
+                </div>
+                <div class="chef-card reveal">
+                    <div class="chef-img">
+                        <img src="images/chef-3.jpg" alt="Chef Sophia">
+                        <div class="chef-social">
+                            <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg></a>
+                            <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>Sophia Laurent</h3>
+                        <span>Pastry Chef</span>
+                        <p>Pastry artist trained at Le Cordon Bleu, Paris.</p>
+                    </div>
+                </div>
+                <div class="chef-card reveal">
+                    <div class="chef-img">
+                        <img src="images/chef-4.jpg" alt="Chef David">
+                        <div class="chef-social">
+                            <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg></a>
+                            <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>David Chen</h3>
+                        <span>Grill Master</span>
+                        <p>Expert in Asian-fusion and wood-fire grilling techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats" id="stats">
+        <div class="stats-bg">
+            <img src="images/plated-gourmet-steak-beef-food-photograp-1.jpg" alt="Stats">
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <div class="stat-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <span class="stat-num" data-target="15000">0</span>
+                    <span class="stat-label">Happy Customers</span>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11h18M5 11V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3M6 11v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8"/></svg>
+                    </div>
+                    <span class="stat-num" data-target="85000">0</span>
+                    <span class="stat-label">Dishes Served</span>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <span class="stat-num" data-target="25">0</span>
+                    <span class="stat-label">Years of Experience</span>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                    </div>
+                    <span class="stat-num" data-target="48">0</span>
+                    <span class="stat-label">Awards Won</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">FAQ</span>
+                <h2 class="section-title reveal">Frequently Asked <span class="text-gold">Questions</span></h2>
+                <p class="section-subtitle reveal">Everything you need to know before your visit</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item reveal">
+                    <button class="faq-question">
+                        <span>Do I need to make a reservation in advance?</span>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>While walk-ins are welcome, we highly recommend making a reservation, especially on weekends and holidays, to secure your preferred time. You can book online through our website or call us directly at +1 (555) 123-4567.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question">
+                        <span>Do you accommodate dietary restrictions?</span>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We offer vegetarian, vegan, gluten-free, and allergen-friendly options. Please inform us of any dietary restrictions when making your reservation, and our chef will create a customized menu just for you.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question">
+                        <span>Is there a dress code?</span>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We suggest smart casual attire. While we don't enforce a strict dress code, most of our guests enjoy dressing up for the occasion. We want you to feel comfortable while matching the elegant ambiance of Bella Vista.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question">
+                        <span>Do you host private events?</span>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we have two private dining rooms available for intimate gatherings, corporate events, and celebrations. We can host up to 60 guests with custom menus tailored to your occasion. Contact us for a personalized quote.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question">
+                        <span>What are your opening hours?</span>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We are open seven days a week: Monday to Sunday, 11:00 AM to 11:00 PM. Our kitchen closes at 10:30 PM. The bar remains open until 11:00 PM for after-dinner drinks.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question">
+                        <span>Do you offer gift cards?</span>
+                        <span class="faq-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! Bella Vista gift cards are available in any denomination and make the perfect gift for food lovers. You can purchase them at the restaurant or contact us to have one mailed to you or your loved one.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Get In Touch</span>
+                <h2 class="section-title reveal">Contact <span class="text-gold">Us</span></h2>
+                <p class="section-subtitle reveal">We'd love to hear from you</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>123 Gourmet Avenue<br>Downtown Culinary District<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                        </div>
+                    </div>
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>info@bellavista.com<br>reservations@bellavista.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </div>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <p>Mon - Sun: 11:00 AM - 11:00 PM<br>Kitchen closes at 10:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrap reveal">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send us a message</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="cName">Full Name *</label>
+                                <input type="text" id="cName" required placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="cEmail">Email *</label>
+                                <input type="email" id="cEmail" required placeholder="your@email.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="cSubject">Subject *</label>
+                            <input type="text" id="cSubject" required placeholder="How can we help?">
+                        </div>
+                        <div class="form-group">
+                            <label for="cMessage">Message *</label>
+                            <textarea id="cMessage" rows="5" required placeholder="Tell us more..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Send Message</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="map reveal">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.679758388458!2d-73.98731368459398!3d40.74844097932762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1635786994102!5m2!1sen!2sus"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" title="Bella Vista Location"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-wrap reveal">
+                <div class="newsletter-content">
+                    <h2>Stay in the <span class="text-gold">Loop</span></h2>
+                    <p>Subscribe to our newsletter for exclusive offers, new menu items, and event invitations.</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#home" class="logo logo-footer">
+                        <span class="logo-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 11h18M5 11V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3M6 11v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8M9 6V4M15 6V4"/>
+                            </svg>
+                        </span>
+                        <div class="logo-text">
+                            <span class="logo-name">Bella Vista</span>
+                            <span class="logo-sub">Restaurant</span>
+                        </div>
+                    </a>
+                    <p>A luxury fine dining experience where every meal becomes a cherished memory. Established 1998.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                        <a href="#" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#0a0a0a"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#specials">Specials</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#reservation">Reservations</a></li>
+                        <li><a href="#">Private Events</a></li>
+                        <li><a href="#">Catering</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Loyalty Program</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> 123 Gourmet Avenue, NY
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>                            +1 (555) 123-4567
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>                            info@bellavista.com
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mon - Sun: 11AM - 11PM
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bella Vista Restaurant. All Rights Reserved. | Crafted with passion for fine dining.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">&#10094;</button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next">&#10095;</button>
+        <div class="lightbox-content">
+            <img id="lightboxImg" src="" alt="Gallery image">
+            <p id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3 id="modalTitle">Success!</h3>
+            <p id="modalMessage">Thank you! Your request has been received.</p>
+            <button class="btn btn-primary modal-close-btn" id="modalClose">Got it</button>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
